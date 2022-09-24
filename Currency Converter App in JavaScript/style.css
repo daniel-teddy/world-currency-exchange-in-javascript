@@ -11,6 +11,7 @@
     --sat: 90%;
     --lig: 61%;
     --first-color: hsl(var(--hue), var(--sat), var(--lig));
+    --smaller-font-size: .75rem;
 }
 body{
   display: flex;
@@ -128,4 +129,12 @@ form button:hover{
   margin-top: 260px;
   white-space: nowrap;
   overflow: hidden;
+}
+.footer__copy {
+  display: flex;
+  margin: 2.5rem 0 2rem;
+  text-align: center;
+  justify-content: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
 }
